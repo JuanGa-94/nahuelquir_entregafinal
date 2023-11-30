@@ -1,0 +1,175 @@
+* {
+  font-family: calibri, sans serif;
+  box-sizing: border-box;
+  margin: 0;
+
+}
+
+
+
+header {
+  color: white;
+  background-color:#4b0082;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+
+section {
+  float: left;
+  width: 75%;
+}
+
+aside {
+  margin-top: 25px;
+  float: left;
+  
+}
+
+.tPendientes {
+font-weight: 900;
+color: indigo;
+font-size: 32px;
+}
+
+h1 {
+  text-align: center;
+  margin: 15px;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+}
+
+p {
+  
+  text-align: center;
+  color: indigo;
+}
+
+.inputT {
+  border-radius: 15px;
+  padding: 15px;
+  background-color: rgb(129, 53, 183);
+  position: relative;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  
+}
+
+table {
+  box-sizing: border-box;
+  
+  width: 75%;
+  max-width: 75%;
+  margin: auto;
+}
+td {
+  box-sizing: border-box;
+
+  overflow: scroll;
+  text-align: center;
+}
+
+tbody {
+  box-sizing: border-box;
+  width: 75%;
+}
+
+.descripcionT {
+  width: 70%;
+}
+.botonT {
+  width: 15%;
+}
+
+.borrar{
+  color: indigo;
+}
+
+.check {
+  color: green;
+}
+.busqueda {
+  
+  position: relative;
+    display: flex;
+    justify-content: center;
+  margin: 10px;
+}
+
+.busqueda input {
+  border: solid indigo 2px;
+  width: 100%;
+  margin: 0;
+  font-style: italic;
+}
+
+label {
+  font-size: 600;
+  display: block;
+  text-align: center;
+  padding-bottom: 10px;
+  margin: 5px;
+}
+input {
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  border-style: none;
+  margin-bottom: 10px;
+}
+
+.nuevaTarea {
+  color: white;
+  font-weight: 600;
+  font-size: large;
+}
+
+button {
+  font-size: 18px;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.agregar {
+  margin: 5px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  margin: auto;
+  list-style: none;
+  font-size: 24px;
+}
+
+li {
+  
+  text-align: center;
+}
+
+
+
+.pendiente {
+  color: rgb(43, 43, 43);
+}
+
+.finalizado {
+  text-decoration: line-through;
+  color: green;
+  
+}
+
+
